@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 A complete solution to create Local Notifications and Push Notifications, through Firebase or another services, using Flutter.
                        DESC
-  s.homepage         = 'https://github.com/rafaelsetragni/awesome_notifications'
+  s.homepage         = 'https://github.com/bitforge/awesome_notifications'
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Rafael Setragni' => 'rafaelsetra@gmail.com' }
   s.source           = { :path => '.' }
