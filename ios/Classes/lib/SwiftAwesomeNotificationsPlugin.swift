@@ -62,7 +62,7 @@ public class BaseAwesomeNotificationsPlugin:
             awesomeNotifications = AwesomeNotifications()
             
             registrar.addMethodCallDelegate(self, channel: self.flutterChannel!)
-            registrar.addApplicationDelegate(self)
+            // registrar.addApplicationDelegate(self)
             
             Logger.shared.d(BaseAwesomeNotificationsPlugin.TAG, "Awesome Notifications plugin attached to iOS \(floor(NSFoundationVersionNumber))")
             Logger.shared.d(BaseAwesomeNotificationsPlugin.TAG, "Awesome Notifications - App Group : \(Definitions.USER_DEFAULT_TAG)")
